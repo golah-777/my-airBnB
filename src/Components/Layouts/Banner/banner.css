@@ -1,0 +1,59 @@
+.banner{
+  height:80vh;
+  position:relative;
+  background-image: url(https://i.pinimg.com/originals/7f/fe/21/7ffe2182bd14a4a919b597e344961317.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ 
+}
+
+.banner_info{
+  background-color: black;
+  color: white;
+  padding:25vh 50px 40px 50px ;
+  width: 300px;
+}
+
+.banner_info>button{
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+  border: 0px solid #ff7779;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+
+.banner_info>button:hover{
+  background-color: white;
+  color: #ff7779;
+  transition: .4s;
+  cursor: pointer;
+}
+
+.banner_info>h5{
+  margin-top:10px ;
+}
+
+.banner_search{
+  display: flex;
+  flex-direction: column;
+}
+
+.banner_searchButton{
+  background: white ;
+  font-weight: 900;
+  text-transform: inherit;
+  color: #ff7779;
+  border: 1px solid #b9b8b8dd;
+  cursor: pointer;
+}
+
+.banner_searchButton:active{
+  background-color: #ff7779;
+  color: white;
+  opacity: .7;
+  transition: .2s;
+}

@@ -1,0 +1,158 @@
+.site-modal {
+  position: fixed;
+  z-index: 10000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+  
+}
+
+.modal-content {
+  background-color: #fefefe;
+  /* margin: 15% auto; */
+  /* padding: 20px; */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #888;
+  /* min-width: 570px;
+  max-width: 570px; */
+  display: flex;
+  flex-direction: column;
+  border-radius: 11px;
+  z-index: 100000;
+  height: 533px;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 1px;
+  padding-right: 5px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.form_header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 15px;
+  padding: 20px;
+  border: 0px solid #aaa;
+  border-bottom-width: 0.6px;
+  background-color: transparent;
+  /* position: fixed; */
+  /* width: 100%;
+  overflow-x: hidden; */
+}
+
+.form_header > h3 {
+  margin: 0px auto;
+}
+
+.form_header > span{
+  cursor: pointer;
+}
+
+.form_body {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px 20px 20px;
+  /* margin-top: 50px; */
+}
+
+.form_body > input,
+.form_body > button {
+  padding: 12px;
+  border: 1px solid #9c9b9b;
+  border-radius: 9px;
+  margin-bottom: 16px;
+  min-width: 520px;
+}
+
+.email{
+  margin-top: 16px;
+}
+
+.form_body > input:hover,
+.form_body > input:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.form_body > button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: transparent;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.form_body > .login-button {
+  background-color: rgb(222, 18, 99);
+  color: white;
+}
+
+.form_body > .login-button:hover {
+  background-color: rgb(204, 9, 87);
+  transition: background-color 0.4s;
+}
+
+.form_body > .other_methods:hover {
+  background-color: #d8d3d3;
+  transition: background-color 0.4s;
+}
+
+button > span {
+  margin: 0px auto;
+  font-weight: 500;
+}
+
+.other_methods > .icon {
+  width: 20px;
+  height: 20px;
+}
+
+.icon > img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.divider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.divider > .divider_line {
+  width: 100%;
+  background-color: #888;
+  height: 1px;
+  margin: 0px 7px;
+}
+
+.divider > span {
+  margin: 0px 5px;
+  color: #848282;
+  font-size: 0.8rem;
+}
+

@@ -1,0 +1,157 @@
+{
+  "users": [
+    {
+      "id": "3fff806f-09f9-4973-bd1e-ce23ed9dffcd",
+      "names": "Oregolele Gaarekoe",
+      "email": "gaarekoe36@gmail.com",
+      "password": "sdfvfdvfdbfv",
+      "phone": "273457964"
+    },
+    {
+      "id": "05b201c3-a01d-4032-82d0-7c4ba1800f96",
+      "names": "Oregolele Gaarekoe",
+      "email": "mastserGo3636@gmail.com",
+      "password": "sdfvfdvfdbfv",
+      "phone": "273457968"
+    }
+  ],
+  "bookings": [
+    {
+      "listingId": "1",
+      "startDate": "2024-02-30",
+      "endDate": "2024-03-05",
+      "userId": "1",
+      "id": "f9ca"
+    }
+  ],
+  "liatings": [
+    {
+      "id": "1",
+      "img": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE0ODQ2MDI1NTE4MDMzOTQ4MQ%3D%3D/original/c92634d0-4964-439a-905d-b9129af14d34.jpeg?im_w=1440&im_q=highq",
+      "title": "Design your Incredibles Supersuit",
+      "discription": "Hosted by Edna Mode",
+      "bath_num": "3",
+      "bed_num": "4",
+      "zip": "9780",
+      "address": "Shomolu Street",
+      "city": "Ikeja",
+      "street": "Agege",
+      "price": "",
+      "sq_ft": "4.5",
+      "email": "test@test.com",
+      "userId": "2"
+    },
+    {
+      "id": "2",
+      "img": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA3NzgxMzcwNzcxOTUzNQ%3D%3D/original/872f434b-9348-4ff1-8c6f-754fdbab4010.jpeg?im_w=1440&im_q=highq",
+      "title": "Game with Khaby Lame",
+      "discription": "Hosted by Khaby Lame",
+      "bath_num": "3",
+      "bed_num": "4",
+      "zip": "9780",
+      "address": "Shomolu Street",
+      "city": "Ikeja",
+      "street": "Agege",
+      "price": "",
+      "sq_ft": "4.5",
+      "email": "test@test.com",
+      "userId": "2"
+    },
+    {
+      "id": "3",
+      "img": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA4MzUyMzk5Mjc3MDU5Nw%3D%3D/original/d62c78db-3c98-46e7-8566-d685d5c689f3.png?im_w=1440&im_q=highq",
+      "title": "Make core memories with inside Out 2",
+      "discription": "Hosted by Joy",
+      "bath_num": "3",
+      "bed_num": "4",
+      "zip": "9780",
+      "address": "Shomolu Street",
+      "city": "Ikeja",
+      "street": "Agege",
+      "price": "",
+      "sq_ft": "4.5",
+      "email": "test@test.com",
+      "userId": "2"
+    },
+    {
+      "id": "4",
+      "img": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNTQ0NTEyMzEwMTI3NDg1MQ%3D%3D/original/bd73f0f8-9057-4bbc-ad70-1db13eb5c03f.png?im_w=1440&im_q=highq",
+      "title": "Wake up in the Musee d'Orsay",
+      "discription": "Hosted by Mathieu Lehanneur",
+      "bath_num": "3",
+      "bed_num": "4",
+      "zip": "9780",
+      "address": "Shomolu Street",
+      "city": "Ikeja",
+      "street": "Agege",
+      "price": "",
+      "sq_ft": "4.5",
+      "email": "test@test.com",
+      "userId": "2"
+    },
+    {
+      "id": "5",
+      "img": "https://a0.muscache.com/im/pictures/hosting/Hosting-985945085188569389/original/53d39092-18e5-4eb2-a1f4-28908578f600.jpeg?im_w=960",
+      "title": "Entire home in Midrand, South Africa",
+      "discription": "Modern Farmhouse in Glenfareness next to Kyalami",
+      "bath_num": "3",
+      "bed_num": "4",
+      "zip": "9780",
+      "address": "Shomolu Street",
+      "city": "Ikeja",
+      "street": "Agege",
+      "price": "$1100/night",
+      "sq_ft": "4.5",
+      "email": "test@test.com",
+      "userId": "2"
+    },
+    {
+      "id": "6",
+      "img": "https://a0.muscache.com/im/pictures/miso/Hosting-817859916440375298/original/4b7426fd-935c-45d6-8c1f-e3ab55de65a1.jpeg?im_w=320",
+      "title": "Hartbeespoort, South Africa",
+      "discription": "Entire home in Hartbeespoort, South Africa",
+      "bath_num": "3",
+      "bed_num": "4",
+      "zip": "9780",
+      "address": "Shomolu Street",
+      "city": "Ikeja",
+      "street": "Agege",
+      "price": "$500/night",
+      "sq_ft": "4.5",
+      "email": "test@test.com",
+      "userId": "2"
+    },
+    {
+      "id": "7",
+      "img": "https://a0.muscache.com/im/pictures/miso/Hosting-801153525946773336/original/176e3220-5265-4689-8768-53ac610d0c0d.jpeg?im_w=960",
+      "title": "Wilderness, South Arica",
+      "discription": "Entire cabin in Wilderness, South Africa",
+      "bath_num": "3",
+      "bed_num": "4",
+      "zip": "9780",
+      "address": "Shomolu Street",
+      "city": "Ikeja",
+      "street": "Agege",
+      "price": "$400/night",
+      "sq_ft": "4.5",
+      "email": "test@test.com",
+      "userId": "2"
+    },
+    {
+      "id": "8",
+      "img": "https://a0.muscache.com/im/pictures/a003c1a8-0182-4b39-9e48-c6e0be6cbe11.jpg?im_w=320",
+      "title": "Have a luxary experience in Sandton",
+      "discription": "Entire rental unit in Sandton, South Africa",
+      "bath_num": "3",
+      "bed_num": "4",
+      "zip": "9780",
+      "address": "Shomolu Street",
+      "city": "Ikeja",
+      "street": "Agege",
+      "price": "$250/night",
+      "sq_ft": "4.5",
+      "email": "test@test.com",
+      "userId": "2"
+    }
+  ]
+}

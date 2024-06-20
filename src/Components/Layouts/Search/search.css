@@ -1,0 +1,47 @@
+.search{
+  position: absolute;
+  top: 35px;
+  left: 25%;
+
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer>h2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+  margin-bottom: 0px;
+}
+
+.footer>input{
+  padding: 10px;
+  height: 30px;
+  border: none;
+}
+
+.footer>input:focus{
+  outline-width: 0;
+}
+
+
+.footer>button{
+  text-transform: inherit;
+  background-color: #ff7779;
+  color: white;
+  padding: 10px 5px;
+  border: 0px solid;
+}
+
+.footer>button:hover{
+  background-color: white;
+  color: #ff7779;
+  border: .8px solid #dddd;
+  cursor: pointer;
+  transition: .7s;
+}

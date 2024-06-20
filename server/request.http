@@ -1,0 +1,40 @@
+# Get all users 
+
+GET http://localhost:5000/users
+###
+
+#Get a single user 
+GET http://localhost:5000/users/2
+###
+
+#Register user 
+POST http://localhost:5000/register
+  content-type: application/json
+
+  {
+    "email":"gaarekoe36@gmail.com",
+    "password":"12Ogg73021$"
+  }
+###
+
+#Get all bookings
+http://localhost:5000/bookings
+###
+
+#Get all bookings for a user 
+http://localhost:5000/users/1/bookings
+
+###
+http://localhost:5000/liatings
+
+###
+
+POST http://localhost:5000/register
+content-type: application/json
+
+{
+  "email": "gaarekoe36@gmail.com",
+  "password": "12Ogg73021$"
+}
+
+
